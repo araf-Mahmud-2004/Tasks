@@ -1,0 +1,24 @@
+ Small REPL practice session:
+
+PS D:\code\assignmnet> node
+Welcome to Node.js v22.12.0.
+Type ".help" for more information.
+> 2+2
+4
+> 2-2
+0
+> 100%2
+0
+> 99 % 2
+1
+> (8 / 2) + (99 % 2) * 6
+10
+> let name = "Araf Mahmud"
+undefined
+> console.log(`{name} is a student`)
+{name} is a student
+undefined
+> console.log(`${name} is a student`)
+Araf Mahmud is a student
+undefined
+>
