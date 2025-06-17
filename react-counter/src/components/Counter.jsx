@@ -1,4 +1,4 @@
-import "./Counter.css";
+import styles from "./Counter.module.css";
 
 function Counter({ count, setCount }) {
   const increment = () => {
@@ -14,26 +14,26 @@ function Counter({ count, setCount }) {
   };
 
   return (
-    <div className="counter-container">
+    <div className={styles.counterContainer}>
       <h1>React Counter App</h1>
-      <div className="counter-display">{count}</div>
-      <div className="counter-buttons">
+      <div className={styles.counterDisplay}>{count}</div>
+      <div className={styles.counterButtons}>
         <button
-          className="counter-btn decrement"
+          className={`${styles.counterBtn} ${styles.decrement}`}
           onClick={decrement}
           aria-label="Decrease count"
         >
           -
         </button>
         <button
-          className="counter-btn reset"
+          className={`${styles.counterBtn} ${styles.reset}`}
           onClick={reset}
           aria-label="Reset count"
         >
           Reset
         </button>
         <button
-          className="counter-btn increment"
+          className={`${styles.counterBtn} ${styles.increment}`}
           onClick={increment}
           aria-label="Increase count"
         >

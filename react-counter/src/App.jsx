@@ -1,14 +1,12 @@
-import { useState } from "react";
-import Counter from "./Counter";
-import "./App.css";
+import React from "react";
+
+import styles from "./App.module.css";
+import Home from "./pages/Home";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="app">
-      <Counter count={count} setCount={setCount} />
-      <Counter count={count} setCount={setCount} />
+    <div className={styles.app}>
+      <Home />
     </div>
   );
 }
