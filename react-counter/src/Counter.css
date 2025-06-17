@@ -1,7 +1,7 @@
 .counter-container {
   max-width: 400px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 20px;
@@ -10,17 +10,17 @@
 }
 
 .counter-container h1 {
-  margin-bottom: 2rem;
-  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
   font-weight: 300;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .counter-display {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin: 2rem auto;
-  padding: 1rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   backdrop-filter: blur(10px);
@@ -37,12 +37,12 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .counter-btn {
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   border: none;
   border-radius: 50px;
@@ -90,8 +90,8 @@
 }
 
 .counter-info {
-  margin-top: 2rem;
-  padding: 1rem;
+  margin-top: 1rem;
+  padding: 0.75rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   backdrop-filter: blur(10px);
