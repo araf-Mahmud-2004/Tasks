@@ -1,0 +1,13 @@
+{
+  "name": "node-modules-demo",
+  "version": "1.0.0",
+  "description": "A demo of ES modules in Node.js",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

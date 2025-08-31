@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="React Greeting App" />
+    <title>React Greeting App</title>
+    <link rel="stylesheet" href="./src/App.css" />
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- Load React and Babel -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <!-- Load our React components directly -->
+    <script type="text/babel" data-type="module" data-presets="react,es2015">
+      // Import React and ReactDOM
+      const { createRoot } = ReactDOM;
+      
+      // App component
+      function Greeting() {
+        return (
+          <div className="greeting">
+            <h1>Hello, It's Araf!</h1>
+          </div>
+        );
+      }
+      
+      // Main App component
+      function App() {
+        return (
+          <div className="App">
+            <Greeting />
+          </div>
+        );
+      }
+      
+      // Render the app
+      const container = document.getElementById('root');
+      const root = createRoot(container);
+      root.render(<App />);
+    </script>
+  </body>
+</html>
